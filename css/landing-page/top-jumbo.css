@@ -1,0 +1,180 @@
+#top-jumbo {
+  padding: 0 0 400px;
+  background: rgb(255,255,255);
+  background: -webkit-linear-gradient(14deg, rgba(255,255,255,1) 7%, rgba(120,224,242,1) 46%, rgba(94,115,230,1) 69%, rgba(255,255,255,1) 100%);
+  background: -o-linear-gradient(14deg, rgba(255,255,255,1) 7%, rgba(120,224,242,1) 46%, rgba(94,115,230,1) 69%, rgba(255,255,255,1) 100%);
+  background: linear-gradient(104deg, rgba(255,255,255,1) 7%, rgba(120,224,242,1) 46%, rgba(94,115,230,1) 69%, rgba(255,255,255,1) 100%);
+  }
+#top-jumbo:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+#top-jumbo .left-side{
+  width: 40%;
+  display: inline-block;
+  float: left;
+}
+#top-jumbo .left-side .large-number{
+  font-size: 300px;
+  font-weight: 700;
+  opacity: .2;
+  color: #403E81;
+  position: relative;
+  left: -20px;
+  top: 0px;
+  z-index: 1;
+}
+#top-jumbo .left-side .info-container{
+  position: relative;
+  top: -80px;
+}
+#top-jumbo .left-side .info-container h1{
+  font-size: 4.5rem;
+  color: #6175E6;
+  text-transform: capitalize;
+  margin-bottom: 2.5rem;
+  line-height: 3.55rem;
+}
+#top-jumbo .left-side .info-container p{
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.8;
+  color: #403E81;
+}
+#top-jumbo .left-side .info-container .email-area{
+  background: white;
+  border-radius: 50px;
+  display: inline-block;
+  padding: 1px;
+}
+#top-jumbo .left-side .info-container .email-area .far{
+  font-size: 2rem;
+  position: relative;
+  top: 7px;
+  margin-left: 15px;
+  color: #CEDDE7;
+}
+#top-jumbo .left-side .info-container .email-area input[type="email"]{
+  background: white;
+  border: none;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 1rem;
+  width: 230px;
+}
+#top-jumbo .left-side .info-container .email-area button{
+  background: #FFA12E;
+  padding: 20px 50px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1rem;
+  border-radius: 50px;
+}
+#top-jumbo .right-side{
+  width: 60%;
+  display: inline-block;
+  float: left;
+  padding: 0 40px;
+}
+#top-jumbo .right-side img{
+  width: 200%;
+}
+
+/*DESKTOP DEVICES*/
+@media only screen and (max-width: 1215px) {
+
+}
+/*TABLET DEVICES*/
+@media only screen and (max-width: 1023px) {
+  #top-jumbo {
+      padding: 0px 0 300px;
+  }
+    #top-jumbo .left-side {
+        width: 100%;
+    }
+    #top-jumbo .left-side .large-number {
+      font-size: 250px;
+    }
+    #top-jumbo .left-side .info-container p {
+      font-size: 1.2rem;
+    }
+    #top-jumbo .left-side .info-container .email-area {
+      width: 100%;
+    }
+    #top-jumbo .left-side .info-container .email-area .far {
+      position: relative;
+      top: 14px;
+      margin-left: 0;
+      float: left;
+      width: 15%;
+      text-align: center;
+    }
+    #top-jumbo .left-side .info-container .email-area input[type="email"] {
+      width: 50%;
+      float: left;
+      position: relative;
+      top: 12px;
+    }
+    #top-jumbo .left-side .info-container .email-area button {
+      background: #FFA12E;
+      padding: 20px 50px;
+      font-size: 1rem;
+      width: 35%;
+      float: right;
+    }
+    #top-jumbo .right-side {
+      width: 70%;
+  }
+    #top-jumbo .right-side img {
+      width: 236%;
+      top: 0px;
+    }
+  }
+}
+/*MOBILE DEVICES*/
+@media only screen and (max-width: 767px) {
+#top-jumbo {
+    padding: 0px 0 200px;
+}
+  #top-jumbo .left-side {
+      width: 100%;
+  }
+  #top-jumbo .left-side .large-number {
+    font-size: 250px;
+  }
+  #top-jumbo .left-side .info-container p {
+    font-size: 1.2rem;
+  }
+  #top-jumbo .left-side .info-container .email-area {
+    width: 100%;
+  }
+  #top-jumbo .left-side .info-container .email-area .far {
+    position: relative;
+    top: 14px;
+    margin-left: 0;
+    float: left;
+    width: 15%;
+    text-align: center;
+  }
+  #top-jumbo .left-side .info-container .email-area input[type="email"] {
+    width: 50%;
+    float: left;
+    position: relative;
+    top: 12px;
+  }
+  #top-jumbo .left-side .info-container .email-area button {
+    background: #FFA12E;
+    padding: 20px 50px;
+    font-size: 1rem;
+    width: 35%;
+    float: right;
+  }
+  #top-jumbo .right-side {
+    width: 70%;
+}
+  #top-jumbo .right-side img {
+    width: 245%;
+    top: 0px;
+  }
+}
